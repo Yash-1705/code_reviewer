@@ -1,0 +1,17 @@
+[project]
+name = "code-reviewer"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "PyGithub>=2.1",
+    "rich>=13.0",
+    "typer>=0.9",
+    "python-dotenv>=1.0",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+reviewer = "code_reviewer.cli:app"
