@@ -1,2 +1,0 @@
-[console_scripts]
-reviewer = code_reviewer.cli:app

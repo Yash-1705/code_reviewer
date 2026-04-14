@@ -1,4 +1,0 @@
-PyGithub>=2.1
-rich>=13.0
-typer>=0.9
-python-dotenv>=1.0
